@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Responsive Profile Card</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style></style>
+    <link rel="stylesheet" href="style.css">
+ 
+</head>
+<body>
+  <article class="profile-card" role="region" aria-label="Profile card">
+    <div class="profile-card__media">
+      <div class="profile-card__avatar-wrap" aria-hidden="true">
+        <!-- Accessible fallback if image fails: decorative gradient with initials -->
+        <img class="profile-card__avatar" alt="Portrait of Deepak Yadav" src="Profile Responsive Card/deepak img.jpg"
+        <span class="profile-card__badge" aria-label="Verified">PRO</span>
+      </div>
+    </div>
+
+    <div class="profile-card__body">
+      <h1 class="profile-card__name">Deepak Yadav</h1>
+      <div class="profile-card__meta">
+        <span title="Role">Frontend Developer</span>
+        <span aria-hidden="true">•</span>
+        <span title="Location">Bihta Patna , Bihar</span>
+      </div>
+
+      <p class="profile-card__bio">
+        CS undergrad building delightful web UIs. Loves clean design, fast apps, and a good cup of chai. Currently exploring accessibility and micro‑interactions.
+      </p>
+
+      <div class="profile-card__actions">
+        <button id="followBtn" class="btn btn--pill" aria-pressed="false" aria-label="Follow Deepak">Follow</button>
+        <button class="btn btn--secondary btn--pill" aria-label="Message Deepak">Message</button>
+      </div>
+
+      <div class="profile-card__stats" aria-label="Profile stats">
+        <div class="stat" role="group" aria-label="Followers">
+          <div class="stat__value" id="followersValue">1,248</div>
+          <div class="stat__label">Followers</div>
+        </div>
+        <div class="stat" role="group" aria-label="Following">
+          <div class="stat__value">421</div>
+          <div class="stat__label">Following</div>
+        </div>
+        <div class="stat" role="group" aria-label="Projects">
+          <div class="stat__value">18</div>
+          <div class="stat__label">Projects</div>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <script src="script.js"></script>
+  
+</body>
+</html>
