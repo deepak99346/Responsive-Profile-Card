@@ -1,2 +1,21 @@
-# Responsive-Profile-Card
-The Responsive Profile Card is a lightweight and modern component built with HTML, CSS, and JavaScript. It displays a user’s avatar, name, role, bio, and action buttons in a clean layout.  Uses CSS Grid for the main layout.  Uses Flexbox for actions and spacing.  Fully responsive and adapts to mobile, tablet, and desktop screens. 
+# Responsive Profile Card
+
+A responsive and interactive profile card built with **HTML, CSS, and JavaScript**.  
+It includes an avatar, name, bio, stats, and action buttons with modern styling.
+
+---
+
+## ✨ Features
+- ✅ Clean design with **Flexbox & Grid**
+- ✅ **Responsive** layout (mobile → desktop)
+- ✅ **Follow button** with dynamic follower count (JavaScript)
+- ✅ **BEM naming convention** for CSS classes
+- ✅ Accessible markup with ARIA attributes
+
+---
+
+## 📂 Project Structure
+responsive-profile-card/
+├── index.html # HTML markup
+├── style.css # CSS styles (Flexbox/Grid, responsiveness)
+└── script.js # JavaScript (Follow button logic)
